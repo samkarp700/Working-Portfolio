@@ -6,6 +6,12 @@
     --text: #2B2B2B;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
 body{
     font-family:'Courier New', Courier, monospace;
     background-color: var(--dark);
@@ -13,7 +19,7 @@ body{
 }
 
 header{
-    padding: 10px;
+    padding: 20px 35px;
     display: flex;
     justify-content: space-between;
     background-color: var(--light);
@@ -67,4 +73,99 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+
+/*header end */
+
+/* hero style start */
+
+.hero {
+    padding: 5px 10px;
+    background-image: url(../images/herostock.jpeg);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+
+.hero-sub {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.hero-sub h2 {
+    font-size: 55px;
+    font-style:oblique;
+    color: var(--white);
+    text-shadow: 0 0 10px rgba(255, 255, 255);   
+}
+
+.hero-sub p {
+    font-size: 20px; 
+    color: var(--white);
+    font-weight: light;
+    margin: 5px 0 15px 0;
+}
+/* hero style end */
+
+.articles {
+    background: var(--light);
+    
+}
+
+.about-me {
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--dark);
+}
+
+.flex-row {
+    border-right: 6px solid var(--white);
+    height: 200px;
+    margin-left: 20px;
+}
+
+.section-title {
+    margin-right: 20px;
+    font-size: 36px;
+    line-height: 1.5;
+    color: var(--white);
+}
+
+
+.bio-image {
+    flex: 1 25%;
+    margin-left: 300px;
+}
+
+.bio-image img {
+    max-width: 100%;
+}
+
+.bio-section {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bio-section p {
+    flex: 12;
+    color: var(--white);
+    font-size: 25px;
+    margin-left: 20px;
+}
+
 
