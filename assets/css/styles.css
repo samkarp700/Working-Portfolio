@@ -1,0 +1,70 @@
+:root {
+    --dark: #4F1675;
+    --middle: #A52FF5;
+    --light: #C479F7;
+    --white: #FFFFFF;
+    --text: #2B2B2B;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--light);
+    border: 5px double var(--white);
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+   
+}
+
+header h1 {
+    font-weight: bold; 
+    font-size: 36px;
+    color: var(--text);
+    margin: 10;
+   
+
+}
+header a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    margin: 10px;
+    font-weight:light;
+    font-size: 1.55vw;
+    
+}
+
+header nav ul li a:hover {
+    background: var(--dark);
+    color: var(--white);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
