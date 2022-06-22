@@ -114,45 +114,30 @@ header nav ul li a:hover {
 }
 /* hero style end */
 
-.articles {
-    background: var(--middle);
-    border: double 5px var(--white);
-}
+/* article section - bio, work */
 
-.about-me {
-    margin: 50px auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid var(--dark);
-}
 
-.flex-row {
-    border-right: 6px solid var(--white);
-    height: 200px;
-    margin-left: 20px;
+/* about me section */
+
+.about-box {
+   margin: 100px auto;
+   padding-right: 100px;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   flex: 1 100%;
+   justify-content: center;
+   background-color: var(--middle);
 }
 
 .section-title {
-    margin-right: 20px;
-    font-size: 36px;
-    line-height: 1.5;
     color: var(--white);
-}
-
-
-.bio-image {
-    flex: 1 25%;
-    margin-left: 300px;
-}
-
-.bio-image img {
-    max-width: 100%;
-    
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 30px;
+    flex: 1 20%;
 }
 
 .bio-section {
@@ -160,15 +145,34 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding-left: 30px;
+    border-left: 5px solid var(--white);
+  
 }
 
 .bio-section p {
-    flex: 12;
+    width: 70%;
+    margin-bottom: 20px;
     color: var(--text);
-    font-size: 25px;
-    margin-left: 20px;
-    text-shadow: 0 0 10px rgba(255, 255, 255);
+    line-height: 1.7;
+    font-size: 18px;
+    padding-top: 20px;
 }
+
+.bio-image {
+    margin-left: 20px;
+}
+
+.bio-image img {
+    max-width: 200px;
+    border: 5px solid var(--white);
+    height: auto;
+    float: left;
+    margin: 20px 20px 0 0; 
+    flex: 2 0 0; 
+    
+}
+
 
 .works {
     margin: 50px auto;
