@@ -163,6 +163,7 @@ header nav ul li a:hover {
 
 .bio-image {
     margin-left: 20px;
+    padding-bottom: 20px;
 }
 
 .bio-image img {
@@ -176,6 +177,8 @@ header nav ul li a:hover {
 }
 
 /* end of about me */
+
+/* My work */
 
 .works {
     margin: 100px auto;
@@ -208,6 +211,8 @@ header nav ul li a:hover {
     padding-left: 30px;
     border-left: 5px solid var(--white);
 }
+
+/* run-buddy begins */
 
 .work-container .run-buddy {
    flex: 1 100%;
@@ -249,6 +254,8 @@ header nav ul li a:hover {
     opacity: 0.3;
 }   
 
+/* placeholder applications */
+
 .work-container .app-1, 
 .app-2,
 .app-3, 
@@ -271,6 +278,54 @@ header nav ul li a:hover {
     flex: 2 0 0; 
 }
 
+.app-img:hover {
+    opacity: 0.3;
+}
+
 .app-title-container {
     background-color: var(--dark)
+    
 }
+
+/* contact section */
+
+.contact-me {
+    margin: 100px auto;
+    padding-right: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 100%;
+    justify-content: center;
+    background-color: var(--middle);
+}
+.contact-section {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 400px;
+    margin-left: 50px;
+}
+
+
+.contact-links {
+    width: 70%;
+    margin-left: 10px;
+    color: var(--text);
+    line-height: 1.7;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    border-left: 5px solid var(--white);
+}
+
+.contact-links ul li {
+   text-decoration: none;
+   list-style: none;
+}
+.contact-links ul li a {
+    text-decoration: none;
+}
+
+
