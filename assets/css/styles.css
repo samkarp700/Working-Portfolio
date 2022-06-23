@@ -231,7 +231,7 @@ header nav ul li a:hover {
     display: flex;
 }
 
-.app-title-container {
+.run-buddy-title {
     background-color: var(--dark);
     box-sizing: content-box;
     text-align: center;
@@ -241,11 +241,36 @@ header nav ul li a:hover {
     padding-bottom:10px;
     padding-top: 10px;
     justify-content: center;
-    display: flex;
     flex-wrap: wrap;
 }
+
 
 .run-buddy img:hover {
     opacity: 0.3;
 }   
 
+.work-container .app-1, 
+.app-2,
+.app-3, 
+.app-4  {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.app-img img {
+    width: 100%;
+    min-width: 400px;
+    border: 5px solid var(--white);
+    height: auto;
+    float: left;
+    margin: 20px 20px 0 0; 
+    flex: 2 0 0; 
+}
+
+.app-title-container {
+    background-color: var(--dark)
+}
